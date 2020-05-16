@@ -1,0 +1,145 @@
+body {
+    background-color: #AEBBC1;
+    color: #4399C1;
+}
+
+#header-nav {
+    background-color: #9AD1F0;
+    color: #4399C1;
+    border: 2px solid #4399C1;
+
+}
+
+.navbar-brand a {
+    color: #4399C1;
+    text-shadow: 1px 1px 1px #1C6689;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    color: #1C6689;
+    text-decoration: none;
+}
+
+button.navbar-toggler {
+    border: 1px solid #4399C1 !important;
+
+}
+
+.qwert {
+    margin: 7px;
+}
+
+a.nav-link {
+    padding: 0;
+    color: #4399C1;
+}
+
+hr {
+    margin: 0;
+}
+
+h2 {
+    margin: 15px auto 15px auto;
+
+}
+
+.category-tile {
+    position: relative;
+    background-color: #9AD1F0;
+    border: 2px solid #4399C1;
+
+}
+
+.category-tile p {
+    padding: 35px 15px 15px 15px;
+
+}
+
+.q1 {
+    padding: 5px;
+
+}
+
+.category-tile span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.float-left {
+    padding: 15px;
+}
+
+
+.navbar-nav li {
+    text-align: center;
+    font-size: 1.3em;
+    width: 100%;
+    background-color: #AEBBC1;
+}
+
+#navbarTogglerDemo01 ul {
+    border: 2px solid #4399C1;
+    margin-top: -2px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*@media (min-width:1200px){
+	.navbar-nav li{
+		visibility: hidden;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.navbar-nav li{
+		visibility: hidden;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.navbar-nav li{
+		visibility: hidden;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .navbar-nav li {
+	text-align: center;
+	font-size: 1.3em;
+	width: 100%;
+	background-color: #AEBBC1;
+	
+}
+   #navbarTogglerDemo01 ul{
+   	border:2px solid #4399C1;
+   	margin-top: -2px !important;
+   	padding-left: 5px;
+   	padding-right: 5px;
+
+   }
+}
+@media (max-width: 575px){
+    .navbar-nav li {
+	text-align: center;
+	font-size: 1.3em;
+	width: 100%;
+	background-color: #AEBBC1;
+
+}
+   #navbarTogglerDemo01 ul{
+   	border:2px solid #4399C1;
+   	margin-top: -2px !important;
+   	padding-left: 5px;
+   	padding-right: 5px;
+   }
+}*/
+
+
+

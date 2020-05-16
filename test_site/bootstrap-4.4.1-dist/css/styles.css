@@ -1,0 +1,390 @@
+body {
+	font-size: 16px;
+	color: #F0DF7B;
+	background-color: #478035;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+	background-color: #F5CF54;
+
+}
+
+
+.container{
+	position: relative;
+}
+
+
+#logo-img {
+	background: url("https://villaved.ru/wp-content/uploads/2017/04/dikaya-500x391.jpg") no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+	border:3px solid #104507;
+	
+}
+.navbar-brand h1 {
+	text-shadow: 1px 1px 1px ;
+	color:#104507;
+	font-size:78px;
+	margin-right:11px;
+	
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+	color: #0D6716;
+}
+.navbar-brand p {
+	font-size: .9em;
+	margin-top: 25px;
+	text-shadow: 1px 1px 1px #104507;
+	font-family: 'Oxygen', sans-serif;
+}
+
+p img {
+	width: 25px;
+	height: 25px;
+	border:1px solid #0D6716;
+}
+
+button {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+}
+
+button.navbar-toggler{
+	border:2px solid #104507 !important;
+
+}  
+
+div.navbar-collapse {
+	margin-right:15px;
+}
+
+#nav-list a {
+    color: #104507;
+    margin:none;
+	text-align: center;
+
+}
+
+#nav-list a:hover {
+	background-color: #F0DF7B;
+}
+ 
+i{
+	font-size: 19px;
+} 
+
+
+#phone { 
+	width: 95px;
+	flex-direction: row;
+    text-align: right;
+    margin-bottom: 45px;
+    padding-top:5px;
+}
+
+#phone div {
+	font-size: .8em;
+
+}
+
+#call-btn a {
+	background-color: #F5CF54;
+	margin-top:13px;
+	border:2px solid #0D6716;
+	color: #104507;
+	font-size: 1.3em;
+	box-shadow: 0 0 30px #104507;
+
+}
+#call-btn a:hover{
+	background-color: #F0DF7B;
+
+}
+.no-padding {
+	padding:0px; 
+}
+#call-btn i {
+	font-size: 1em;
+	margin-right:5px;
+}
+#wedlvr {
+	font-size: .8em;
+	padding-bottom: 11px;
+	color: #F0DF7B;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border:2px solid #0D6716;
+	box-shadow: 0 0 50px #104507;
+	overflow: hidden;
+
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #F0DF7B;
+}
+
+#menu-tile {
+	background: url(https://www.davidchuschinabistro.com/images/menu-tile.jpg) no-repeat;
+	background-position: center;
+} 
+#specials-tile {
+	background: url(https://www.davidchuschinabistro.com/images/specials-tile.jpg) no-repeat;
+	background-position: center;
+
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	background-color: #104507;
+	color: #F0DF7B;
+	opacity: .9;
+}
+.card-footer {
+	background-color: #104507;
+	margin-top:35px;
+	padding-bottom:15px;
+	padding-top:35px; 
+	font-size: .8em;
+
+}
+.card-footer div.row {
+	margin-bottom: 35px;
+
+}
+#hours {
+	line-height: 2;
+}
+#testimonials {
+	font-size: .9em;
+	padding-top: 5px;
+	font-style: italic;
+}
+#hours > span, #address > span {
+	font-size: 1.3em;
+	padding-bottom: 5px;
+	line-height: 2;
+}
+#address p {
+	color: #478035;
+	margin-top: 15px;
+	font-size: .9em;
+}
+
+.category-tile {
+	position: relative;
+	border:2px solid #0D6716;
+	box-shadow: 0 0 50px #104507;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin:0 auto 15px;
+}
+
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	background-color: #104507;
+	color: #F0DF7B;
+	opacity: .9;
+
+}
+
+.category-tile:hover {
+	box-shadow: 0 1px 5px 1px #F0DF7B;}
+
+#menu-categories-title + div{
+	margin-bottom: 50px;
+}
+
+
+
+@media (min-width:1200px){
+
+    ul.navbar-nav {
+		font-size: 1.2em;
+		margin-bottom: 55px;
+	}
+	#phone {
+		width: 115px;
+	}
+    .jumbotron {
+    	background: url(https://www.davidchuschinabistro.com/images/jumbotron_1200.jpg) no-repeat;
+    	height: 675px;
+    	box-shadow: 0 0 50px #104507;
+    	border:2px solid #104507;
+    	margin-top: 35px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+	 ul.navbar-nav {
+		margin-bottom: 55px;
+	}
+	.jumbotron {
+    	background: url(https://www.davidchuschinabistro.com/images/jumbotron_992.jpg) no-repeat;
+    	height: 558px;
+    	box-shadow: 0 0 50px #104507;
+    	border:2px solid #104507;
+    	margin-top: 25px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	#logo-img{
+	background: url("https://villaved.ru/wp-content/uploads/2017/04/dikaya-500x391.jpg") no-repeat;
+    width:100px;
+    height:100px;
+    margin: 5px 5px 5px 0px; 
+    }
+
+    .navbar-brand p {
+    	font-size:.7em;
+    	margin: 5px;
+    }
+
+    .navbar-brand img{
+    	width: 15px;
+    	height: 15px;
+    	margin: 5px;
+    }
+    .navbar-brand h1{
+    	font-size: 58px;
+    	margin-bottom: 5px;
+    }
+
+    div.navbar-callapse {
+    	margin-bottom: 38px;
+    }
+
+    .jumbotron {
+    	background: url(https://www.davidchuschinabistro.com/images/jumbotron_768.jpg) no-repeat;
+    	height: 432px;
+    	box-shadow: 0 0 50px #104507;
+    	border:2px solid #104507;
+    	margin-top: 19px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .navbar-brand h1{
+    	margin-bottom: 5px;
+    	font-size: 11vw;
+    }
+    .navbar-brand img{
+    	width: 15px;
+    	height: 15px;
+    	margin: 5px;
+    }
+    .navbar-brand p {
+    	font-size:.7em;
+    	margin: 5px;
+    }
+
+    .navbar-nav a {
+    	font-size: 1.2em;
+    }
+
+    .navbar-nav i {
+    	font-size: 1.2em;
+    	margin-right: 5px;
+    }
+
+    .jumbotron {
+    	margin-top: 15px;
+    	padding: 0;
+    	box-shadow: 0 0 50px #104507; 
+    	border:2px solid #104507;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .navbar-brand h1{
+    	margin-bottom: 5px;
+    	font-size: 15vw;
+    }
+    .navbar-brand img{
+    	width: 15px;
+    	height: 15px;
+    	margin: 5px;
+    }
+    .navbar-brand p {
+    	font-size:.7em;
+    	margin: 5px;
+    }
+
+    .navbar-nav a {
+    	font-size: 1.2em;
+    }
+
+    .navbar-nav i {
+    	font-size: 1.2em;
+    	margin-right: 5px;
+    }
+
+    .jumbotron {
+    	margin-top: 15px;
+    	padding: 0;
+    	box-shadow: 0 0 50px #104507; 
+    	border:2px solid #104507;
+    }
+
+    #menu-tile, #specials-tile, #map-tile{
+    	width: 360px;
+    	margin: 0 auto 15px;
+    }
+     .card-footer section {
+     	margin-bottom: 30px;
+     	text-align: center;
+     }
+     .card-footer section:nth-child(3){
+     	margin-bottom: 0;
+
+     }
+     .card-footer section hr {
+     	width: 50%;
+     }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
